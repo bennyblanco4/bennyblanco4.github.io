@@ -5,31 +5,39 @@
     height:900px;
     margin: 0;
     margin-top:-20px;
-    
+    font-family: myfont;
+    float:left;
+clear:none;
 }
 
 
 #section2{
 
-background-image: url('photo2.jpg');
+background-image: url('154132319127841695.jpg');
     background-size:100%;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
+    font-family: divfont;
+float:left;
+clear:none;
+
 
 
 }
 
 
-
 #section3{
 
-background-image: url('photo3.jpg');
+background-image: url('TJfwDN.jpg');
     background-size:100%;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
+   font-family: divfont;
 
+float:left;
+clear:none;
 }
 body {    
     margin: 0 ;
@@ -52,6 +60,8 @@ nav {
 text-align: left;
 margin: 20px 0 0 ;
 padding: 10px 0;
+margin-left: 50px;
+
 }
 
 nav ul{
@@ -66,7 +76,7 @@ nav li {
 }
 
 nav a {
-  font-weight: normal;
+  font-weight: bold;
   padding: 10px 10px;
   font-size: 0.8em;
 }
@@ -85,12 +95,19 @@ a:visited {
 
 @font-face {
     font-family: myfont;
-    src: url(walkway.ttf);
+    src: url(Montserrat-SemiBold.ttf);
 }
 
-nav {
-    font-family: myfont;
+
+@font-face {
+
+   font-family: divfont;
+   src: url(PlayfairDisplay-Regular.ttf);
+
+
 }
+
+
 
 
 
@@ -148,6 +165,15 @@ a:hover::before, a:focus::before {
 }
 
 
+
+
+
+.logo:before {
+
+background-color: transparent;
+
+}
+
 .secondary:before {
 
     
@@ -193,5 +219,77 @@ a:hover::before, a:focus::before {
     float:right;
     
     margin-top:20px;
+
+}
+
+.logo {
+
+float:left;
+    
+    margin-top:25px;
+position: fixed;
+}
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+h2 {
+
+    color: white;
+    
+   font-size: 60px;
+   
+   padding-top: 230px; 
+
+}
+
+
+
+.applybutton {
+
+    background-color: transparent;
+     border-width: thin;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    margin-top: 30px;
+    margin-left: 1000px;
+    font-family: myfont;
+     -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.applybutton:hover {
+
+background: white;
+color: brown;
 
 }
