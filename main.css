@@ -2,6 +2,7 @@
     
     background-image: url('photo4.jpg');
     background-size:100%;
+    background-repeat: no-repeat;
     height:900px;
     margin: 0;
     margin-top:-20px;
@@ -141,7 +142,7 @@ a{
     font-weight: 900;
     text-transform: uppercase;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-    color: #000;
+    
 }
 a::before {
     content: '';
