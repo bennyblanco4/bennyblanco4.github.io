@@ -1,7 +1,7 @@
 #section1{
     
     background-image: url('photo4.jpg');
-    background-size:100%;
+     background-size: 100% 100%;
     background-repeat: no-repeat;
     height:900px;
     margin: 0;
@@ -9,13 +9,14 @@
     font-family: myfont;
     float:left;
 clear:none;
+
 }
 
 
 #section2{
 
 background-image: url('154132319127841695.jpg');
-    background-size:100%;
+     background-size: 100% 100%;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
@@ -31,7 +32,7 @@ clear:none;
 #section3{
 
 background-image: url('TJfwDN.jpg');
-    background-size:100%;
+     background-size: 100% 100%;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
@@ -167,7 +168,12 @@ a:hover::before, a:focus::before {
 
 
 
+.applybutton:before{
 
+background-color: transparent;
+
+
+}
 
 .logo:before {
 
@@ -265,6 +271,7 @@ h2 {
 
 .applybutton {
 
+    float:
     background-color: transparent;
      border-width: thin;
     border-style: solid;
@@ -280,6 +287,7 @@ h2 {
     cursor: pointer;
     
     margin-top: 30px;
+    margin-right: 200px; 
     margin-left: 1000px;
     font-family: myfont;
      -moz-transition: all .2s ease-in;
@@ -294,3 +302,8 @@ background: white;
 color: brown;
 
 }
+
+
+
+
+
