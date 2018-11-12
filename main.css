@@ -1,7 +1,7 @@
 #section1{
     
     background-image: url('photo4.jpg');
-     background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height:900px;
     margin: 0;
@@ -15,12 +15,13 @@ clear:none;
 
 #section2{
 
-background-image: url('154132319127841695.jpg');
-     background-size: 100% 100%;
+background-image: url('TJfwfdfDN.jpg');
+     background-size: background-size: cover;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
     font-family: divfont;
+    color: yellow;
 float:left;
 clear:none;
 
@@ -32,7 +33,7 @@ clear:none;
 #section3{
 
 background-image: url('TJfwDN.jpg');
-     background-size: 100% 100%;
+     background-size: background-size: cover;
     height:900px;
     margin: 0;
     background-repeat: no-repeat;
@@ -41,6 +42,8 @@ background-image: url('TJfwDN.jpg');
 float:left;
 clear:none;
 }
+
+
 body {    
     margin: 0 ;
     padding: 0 ;
@@ -271,24 +274,24 @@ h2 {
 
 .applybutton {
 
-    float:
+   
     background-color: transparent;
      border-width: thin;
     border-style: solid;
     border-color: white;
     border-radius: 10px;
     color: white;
-    padding: 12px 50px;
+    padding: 15px 32px;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
-    
+    float: right;
     font-size: 16px;
-    margin: 4px 2px;
+    
     cursor: pointer;
     
-    margin-top: 30px;
-    margin-right: 200px; 
-    margin-left: 1000px;
+    margin: 4px 2px;
+    margin-top: 25px;
     font-family: myfont;
      -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
