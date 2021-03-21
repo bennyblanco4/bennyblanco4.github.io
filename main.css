@@ -119,7 +119,14 @@ a:visited {
 }
 
 
+.cardz {
 
+
+margin-top: 300px;
+margin-left: 50px;
+
+
+}
 
 
 a {
@@ -204,6 +211,12 @@ background-color: transparent;
 }
 
 .instagram:before{
+
+    background-color: transparent;
+
+}
+
+.cardz:before{
 
     background-color: transparent;
 
